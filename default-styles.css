@@ -2,8 +2,8 @@
 	box-sizing: border-box;
 }
 body {
-	color: #6a6a6a;
-	font: 1.05em/1.5 'Raleway', sans-serif;
+	color: #36454f;
+	font-family: 'Slabo 27px', serif;
 }
 header {
 	padding: 0 0 .85em;
