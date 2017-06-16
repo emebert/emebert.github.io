@@ -15,7 +15,8 @@ header::after {
 }
 h1,
 h2 {
-	color: #8292b1;
+	font-family: 'Slabo 27px', serif;
+	color: #36454f;
 	margin-top: .65em;
 }
 main > h2 {
