@@ -1,41 +1,74 @@
+@import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+
+
 * {
 	box-sizing: border-box;
 }
-body {
-	color: #36454f;
-	font-family: 'Slabo 27px', serif;
+	body, input, select, textarea {
+		color: #555555;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12pt;
+		font-weight: 300;
+		line-height: 1.65em;
+		text-decoration: none;
+	}
 }
-header {
-	padding: 0 0 .85em;
+header.major {
+		padding-bottom: 3em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+		header.major h2 {
+			font-size: 2.6em;
+			font-weight: 700;
+		}
+
+		header.major .byline {
+			display: block;
+			padding-top: 1em;
+			letter-spacing: 1px;
+			font-size: 1.4em;
+		}
+h1 {
+		font-family:'Pacifico', cursive;
+		font-size: 24pt;
+		font-weight: 325;
+		line-height: 1.65em;
 }
-header::after {
-	content: "";
-	display: table;
-	clear: both;
-}
-h1,
 h2 {
-	font-family: 'Slabo 27px', serif;
-	color: #36454f;
-	margin-top: .65em;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16pt;
+		font-weight: 300;
+		line-height: 1.65em;
 }
 main > h2 {
 	margin-bottom: 1.25em;
 }
 h3,
 h2 {
+	font-family: 'Pacifico', cursive;
 	font-weight: normal;
+	text-decoration: none;
 }
 a {
 	color: #4683af;
 }
 nav ul {
+	font-family: 'Pacifico', cursive;
 	list-style-type: none;
-	padding: 0;
+	padding: 25px;
 }
-main ul {
-	padding: 0;
-}
+
+ul{
+display:inline-block;
+  margin:0;
+  padding:0 20px;
+  text-decoration: none;
+} 
+
 input {
 	border-radius: .3em;
 	border: none;
@@ -68,6 +101,8 @@ nav {
 	margin-top: 20px;
 }
 nav li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16pt;
 	display: inline-block;
 	margin: 0 0.45em;
 }
@@ -106,6 +141,7 @@ article {
 	width: 42%;
 	padding-bottom: 1.8em;
 }
+
 footer {
 	border-top: 1px dotted #dadada;
 	text-align: center;
