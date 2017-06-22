@@ -1,6 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Pacifico");
 
 
 * {
@@ -39,7 +39,7 @@ h1 {
 		line-height: 1.65em;
 }
 h2 {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Pacifico', cursive;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -48,7 +48,11 @@ main > h2 {
 	margin-bottom: 1.25em;
 }
 h3,
-h2 {
+h2 {img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
 	font-family: 'Pacifico', cursive;
 	font-weight: normal;
 	text-decoration: none;
@@ -60,6 +64,12 @@ nav ul {
 	font-family: 'Pacifico', cursive;
 	list-style-type: none;
 	padding: 25px;
+}
+
+.center img {        
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 ul{
