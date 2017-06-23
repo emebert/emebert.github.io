@@ -2,19 +2,19 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Pacifico");
 
-
 * {
 	box-sizing: border-box;
 }
-	body, input, select, textarea {
+	body {
 		color: #555555;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.65em;
 		text-decoration: none;
+		padding: 5%;
 	}
-}
+
 header.major {
 		padding-bottom: 3em;
 		text-align: center;
@@ -112,7 +112,7 @@ nav {
 }
 nav li {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16pt;
+	font-size: 16px;
 	display: inline-block;
 	margin: 0 0.45em;
 }
@@ -158,15 +158,31 @@ footer {
 	padding: 2em 0 1.5em;
 	clear: both;
 }
-@media (max-width: 575px) {
-	nav,
-	header > img,
-	.listPrimary,
-	.subscribe {
-		float: none;
-		width: 100%;
-	}
 	.listPrimary {
 		padding-bottom: 0;
 	}
+
+.projects-list {
+	display: inline-flex; /* this would change if i added more */
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.my-project {
+	width: calc(100% / 3);
+	padding: 5%;
+}
+
+.photo-skills{
+	display: flex;
+	align-items: center;
+}
+
+.photo-skills img{
+	width: 25%;
+}
+
+.skills-container {
+	width: 75%;
+	padding-left: 25px;
 }
